@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>trabalhando com hover</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: justify;
+        }
+        div > p {
+            display: none; /*não mostrar*/
+            color: white;
+            background-color: black;
+            width: 200px;
+        }
+        div:hover > p {
+            display: block;/*mostrar*/  
+        }
+        div:hover{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo do hover</h1>
+    <p>Passe o mauser aqui</p>
+    <div>
+        Passe o mauser aqui
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus voluptatibus architecto aut hic quam, aperiam quod soluta officiis molestias, inventore id eligendi totam iusto iste consequatur possimus incidunt maxime et!</p>
+    </div>
+    <p>Fim do Exemplo</p>
+</body>
+</html>

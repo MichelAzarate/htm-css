@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/*
+    Todo em html id em css é #
+    Todo em html class em css é .
+*/
+body{
+    background-image: linear-gradient(rgba(100, 148, 237, 0.603), rgba(71, 61, 139, 0.808));
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgba(137, 43, 226, 0.89);
+}
+#personalizado{
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(#F595DF,
+    #C223FC);
+    box-shadow: 2px 3px 2px #2331FC;
+   
+}
+main{
+    background-image: linear-gradient( white, #c223fc6e, white, #c223fcf5);
+    margin: auto;
+    width: 500px;
+    border-radius: 5px;
+    box-shadow:  2px 3px 2px 2px #2331FC;
+    left: 9px;
+    text-indent: 16px;
+    text-align: justify;
+}
